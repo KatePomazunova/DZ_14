@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "hw-project"
+version = "0.1.0"
+description = ""
+authors = ["KatePomazunova <kateryna.pomazunova@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.95.2"
+sqlalchemy = "^2.0.15"
+psycopg2-binary = "^2.9.6"
+pydantic = "^1.10.8"
+uvicorn = "^0.22.0"
+python-multipart = "^0.0.6"
+python-jose = "^3.3.0"
+cryptography = "^41.0.0"
+bcrypt = "^4.0.1"
+passlib = "^1.7.4"
+python-dotenv = "1.0.0"
+fastapi-jwt-auth = "^0.5.0"
+libgravatar = "^1.0.4"
+alembic = "^1.11.1"
+fastapi-mail = "^1.2.8"
+fastapi-limiter = "^0.1.5"
+redis = "^4.5.5"
+asyncio = "^3.4.3"
+cloudinary = "^1.33.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
