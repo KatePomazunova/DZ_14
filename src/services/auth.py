@@ -14,6 +14,9 @@ from src.repository import users as repository_users
 from src.conf.config import settings
 
 class Auth:
+    """
+    A class to define the authorization process.
+    """
     pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
     SECRET_KEY = settings.secret_key
     ALGORITHM = settings.algorithm
